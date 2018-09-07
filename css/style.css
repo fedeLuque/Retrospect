@@ -173,7 +173,7 @@ header span {
     font-weight: bold;
     background: none;
     padding: 12px 49px;
-}
+}   
 /*#article2 h2 {
     font-size: 22px;
     color: black;
@@ -223,16 +223,16 @@ header span {
     font-family: arial;
     text-align: center;
     font-weight: normal;
-    padding: 0 346px;
     line-height: 33px;
+    width: 45vw;
+    margin: 30px auto;
 }
 
 #special div {
     display: block;
-    margin: auto;
-    position: absolute;
-    top: 338px;
-    left: 65px;
+    margin: 0 auto;
+    width: 1200px;
+    font-size: 0; /*para evitar el espacio entre images*/
 }
 
 #images img {
