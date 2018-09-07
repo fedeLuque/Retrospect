@@ -1,8 +1,6 @@
 
-
 #container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
 }
 
 #banner {
@@ -10,20 +8,21 @@
     width: 100vw;
     height: 100vh;
     position: fixed;
-    top: 0;
 }
 
 #wall {
-    width: 100vw;
+    width: 100%;
     height: 1000px;
     opacity: 0.99;
     min-width: 1200px; /*cuando achico me cubre las imagenes el fondo*/
 }
+
 header {
     height: 20vh;
     color: white;
     font-family: arial; 
 }
+
 /*Logo RETROSPECT*/
 header h1 {
     position: relative;
@@ -33,11 +32,12 @@ header h1 {
     display: inline-block;
     font-size: 20px;
 }
+
 /*MENU*/
 header span {
     position: absolute; /*asi cuando achico la pantalla se mantiene*/
     top: 5vh;
-    left: 93vw;
+    left: 90vw;
     /*margin: 5vh 5vw 0 30%;*/
     display: inline-block;
     font-size: 20px;
@@ -50,8 +50,8 @@ header span {
     font-family: arial;
     line-height: 40px;
 }
-/*Icono Diamante*/
 
+/*Icono Diamante*/
 .iconDiamand {
     font-size: 50px;
     margin: 25px 100px 50px 20px;
@@ -59,6 +59,7 @@ header span {
     /*top: 25%;
     left: 46.5vw;*/
 }
+
 .iconCircle {
     font-size: 100px;
     margin: 0 auto;
@@ -67,13 +68,14 @@ header span {
 
 #intro h2 {
     font-size: 37px;
-}    
+}  
 
 #intro h3 {
     font-size: 23px;
     font-family: verdana;
     font-weight: normal;
 }
+
 #intro button {
     background: #51BAA4;
     color: #fff;
@@ -88,7 +90,7 @@ header span {
     background: #EEE;
     display: block;
     height: 100%;
-    width: auto;
+    width: 100%;
     opacity: 0.99;
     position: relative;
     top: 15%;
@@ -105,6 +107,7 @@ header span {
     color: grey;
     margin: 88px auto;
 }
+
 /*Articulo 1*/
 #article1 .text {
     width: 440px;
@@ -127,26 +130,6 @@ header span {
     font-weight: bold;
     background: none;
     padding: 12px 49px;
-}
-/*#article1 h2 {
-    font-size: 22px;
-    color: black;
-    position: absolute;
-    left: 521px;
-    bottom: 210px;
-}
-
-#article1 img {
-    position: absolute;
-    top: 0;
-    right: 511px;
-}
-
-#article1 p {
-    position: absolute;
-    left: 535px;
-    bottom: 88px;
-    line-height: 30px;
 }
 
 /*Articulo 2*/
@@ -174,34 +157,7 @@ header span {
     font-weight: bold;
     background: none;
     padding: 12px 49px;
-}   
-/*#article2 h2 {
-    font-size: 22px;
-    color: black;
-    position: absolute;
-    right: 521px;
-    left: 20px;
-    bottom: 210px;
 }
-
-#article2 img {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 511px;
-}
-
-#article2 p {
-    display: block;
-    position: absolute;
-    right: 535px;
-    left: 29px;
-    bottom: 88px;
-    line-height: 30px;
-}*/
-
-
-
 
 #special {
     display: block;
@@ -209,7 +165,9 @@ header span {
     position: relative;
     top: 118px;
     height: 900px;
-    width: auto;
+    width: 100%;
+    min-width: 1200px;
+    background-color: gray;
 }
 
 #special h2 {
@@ -217,7 +175,7 @@ header span {
     padding: 116px 0 0 0;
     text-align: center;
     font-family: arial;
-    width: 45vw;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -227,7 +185,7 @@ header span {
     text-align: center;
     font-weight: normal;
     line-height: 33px;
-    width: 45vw;
+    width: 750px;
     margin: 30px auto;
 }
 
@@ -241,6 +199,7 @@ header span {
 #images img {
     width: 300px; 
 }
+
 #special button {
     border-radius: 40px;
     border: 2px solid #51BAA4;
@@ -250,14 +209,15 @@ header span {
     font-family: arial;
     background: none;
     padding: 18px 49px;
-    position: relative;
-    margin: 50px 550px;
+    margin: 40px auto;
+    display: block;
 }
 
 #panel3 {
     background-image: url(https://templated.co/items/demos/retrospect/images/pic11.jpg);
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    min-width: 1200px;
     background-attachment: fixed;
 }
 
@@ -281,6 +241,13 @@ header span {
     margin: 0 auto;
 }
 
+#panel3 h3 {
+    font-size: 20px;
+    font-weight: 100;
+    width: 650px;
+    margin: 0 auto;
+}
+
 #panel3 button {
     border-radius: 40px;
     border: 2px solid #fff;
@@ -291,4 +258,77 @@ header span {
     background: none;
     padding: 18px 49px;
     margin: 50px auto;
+}
+
+#panel4 {
+    background-color: #1e2832;
+    height: 800px;
+    width: 100%;
+    /*font-size: 0;*/
+    position: relative;
+    top: -20px;
+}
+
+#panel4 header {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    height: 40vh;
+}
+
+#panel4 header h2 {
+    margin: 80px 0 0 0;
+    font-size: 40px;
+}
+
+#panel4 header h3 {
+    margin: 40px 0;
+    font-size: 25px;
+    font-weight: normal;
+
+}
+
+/*Form primitivo*/
+.name {
+    width: 400px;
+    height: 40px;
+    background-color: rgb(41, 51, 60);
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    padding: 10px;
+    color: #cfcfcf;
+    font-family: arial;
+}
+
+.email {
+    width: 400px;
+    height: 40px;
+    background-color: rgb(41, 51, 60);
+    display: inline-block;
+    position: relative;
+    left: 205px;
+    padding: 10px;
+    color: #cfcfcf;
+    font-family: arial;
+
+}
+
+.message {
+    width: 810px;
+    height: 150px;
+    background-color: rgb(41, 51, 60);
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 200px;
+    padding: 10px 30px 10px 10px;
+    color: #cfcfcf;
+    font-family: arial;
+}
+
+#panel4 > div {
+    width: 1200px;
+    margin: 0 auto;
 }
