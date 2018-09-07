@@ -1,7 +1,7 @@
 
 
 #container {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -14,9 +14,10 @@
 }
 
 #wall {
-    width: 100%;
+    width: 100vw;
     height: 1000px;
     opacity: 0.99;
+    min-width: 1200px; /*cuando achico me cubre las imagenes el fondo*/
 }
 header {
     height: 20vh;
