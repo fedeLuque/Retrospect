@@ -36,31 +36,32 @@ header h1 {
 header span {
     position: absolute; /*asi cuando achico la pantalla se mantiene*/
     top: 5vh;
-    left: 90vw;
+    left: 93vw;
     /*margin: 5vh 5vw 0 30%;*/
     display: inline-block;
     font-size: 20px;
 }
-/*Icono Diamante*/
 
-.iconoDiamand {
-    font-size: 50px;
-    margin: 25px 100px 50px 20px;
-    position: absolute;
-    /*top: 25%;
-    left: 46.5vw;*/
-}
-.iconoCircle {
-    font-size: 100px;
-    margin: 0 auto;
-    font-style: normal;
-}
 #intro {
     color:#fff;
     margin: 0 auto;
     text-align: center;
     font-family: arial;
     line-height: 40px;
+}
+/*Icono Diamante*/
+
+.iconDiamand {
+    font-size: 50px;
+    margin: 25px 100px 50px 20px;
+    position: absolute;
+    /*top: 25%;
+    left: 46.5vw;*/
+}
+.iconCircle {
+    font-size: 100px;
+    margin: 0 auto;
+    font-style: normal;
 }
 
 #intro h2 {
@@ -96,15 +97,37 @@ header span {
     display: block;
     background-color: #fff;
     height: 310px;
-    width: 75%;
+    width: 1000px;
     position: relative;
     top: 120px;
     font-family: arial;
     color: grey;
     margin: 88px auto;
 }
+/*Articulo 1*/
+#article1 .text {
+    width: 440px;
+    height: 250px;
+    padding: 30px;
+    float: right;
 
-#article1 h2 {
+}
+
+#article1 .img {
+    width: 500px;
+    height: inherit;
+    display: inline-block;
+}
+
+#article1 button {
+    border-radius: 40px;
+    border: 2px solid #51BAA4;
+    color: #51BAA4;
+    font-weight: bold;
+    background: none;
+    padding: 12px 49px;
+}
+/*#article1 h2 {
     font-size: 22px;
     color: black;
     position: absolute;
@@ -125,10 +148,25 @@ header span {
     line-height: 30px;
 }
 
-#article1 button {
+/*Articulo 2*/
+#article2 .text {
+    width: 440px;
+    height: 250px;
+    padding: 30px;
+    float: left;
+}
+
+#article2 .img {
+    width: 500px;
+    height: inherit;
+    display: inline-block;
+}
+
+#article2 button {
+    display: block;
     position: absolute;
-    left: 530px;
-    bottom: 24px;
+    right: 829px;
+    bottom: 26px;
     border-radius: 40px;
     border: 2px solid #51BAA4;
     color: #51BAA4;
@@ -136,8 +174,7 @@ header span {
     background: none;
     padding: 12px 49px;
 }
-
-#article2 h2 {
+/*#article2 h2 {
     font-size: 22px;
     color: black;
     position: absolute;
@@ -160,20 +197,10 @@ header span {
     left: 29px;
     bottom: 88px;
     line-height: 30px;
-}
+}*/
 
-#article2 button {
-    display: block;
-    position: absolute;
-    right: 829px;
-    bottom: 26px;
-    border-radius: 40px;
-    border: 2px solid #51BAA4;
-    color: #51BAA4;
-    font-weight: bold;
-    background: none;
-    padding: 12px 49px;
-}
+
+
 
 #special {
     display: block;
