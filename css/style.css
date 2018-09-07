@@ -34,14 +34,27 @@ header h1 {
 }
 /*MENU*/
 header span {
-    position: relative;
-    top: 3vh;
-    left: 82vw;
+    position: absolute; /*asi cuando achico la pantalla se mantiene*/
+    top: 5vh;
+    left: 90vw;
     /*margin: 5vh 5vw 0 30%;*/
     display: inline-block;
     font-size: 20px;
 }
+/*Icono Diamante*/
 
+.iconoDiamand {
+    font-size: 50px;
+    margin: 25px 100px 50px 20px;
+    position: absolute;
+    /*top: 25%;
+    left: 46.5vw;*/
+}
+.iconoCircle {
+    font-size: 100px;
+    margin: 0 auto;
+    font-style: normal;
+}
 #intro {
     color:#fff;
     margin: 0 auto;
