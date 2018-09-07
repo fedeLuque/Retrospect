@@ -1,6 +1,7 @@
 
 #container {
     width: 100%;
+    height: 3850px;
 }
 
 #banner {
@@ -295,8 +296,6 @@ header span {
     height: 40px;
     background-color: rgb(41, 51, 60);
     display: inline-block;
-    position: relative;
-    left: 200px;
     padding: 10px;
     color: #cfcfcf;
     font-family: arial;
@@ -308,7 +307,7 @@ header span {
     background-color: rgb(41, 51, 60);
     display: inline-block;
     position: relative;
-    left: 205px;
+    left: 6px;
     padding: 10px;
     color: #cfcfcf;
     font-family: arial;
@@ -322,7 +321,6 @@ header span {
     display: block;
     position: relative;
     top: 10px;
-    left: 200px;
     padding: 10px 30px 10px 10px;
     color: #cfcfcf;
     font-family: arial;
@@ -330,5 +328,81 @@ header span {
 
 #panel4 > div {
     width: 1200px;
+    margin: 0 auto;
+}
+
+#panel4 .containerForm {
+    width: 850px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+/*Botones del form*/
+#panel4 .containerButton {
+    width: 850px;
+    height: 50px;
+    position: relative;
+    top: 70px;
+    font-family: arial;
+}
+
+#panel4 .buttonSubmit {
+    background: #51BAA4;
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 250px;
+}
+
+.buttonReset {
+    background:transparent;
+    color:  #fff;
+    padding: 20px 50px;
+    border-radius: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 270px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #1E2832;
+    position: absolute;
+    display: block;
+
+}
+
+footer > div {
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+}
+
+#redesSociales {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    height: 100px;
+    margin: 0 auto;
+    width: 850px;
+}
+
+/*Firmas*/
+h6 {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#redesSociales img {
+    margin: 0 12px;
+    margin-top: 50px;
+}
+
+#firmas {
+    text-align: center;
+    color: #a5a9ad;
+    width: 850px;
     margin: 0 auto;
 }
