@@ -8,6 +8,7 @@
     width: 100vw;
     height: 100vh;
     position: fixed;
+    background-size: cover;
 }
 
 #wall {
@@ -129,6 +130,7 @@ header span {
     font-weight: bold;
     background: none;
     padding: 12px 49px;
+    margin: 40px 0 0 0;
 }
 
 /*Articulo 2*/
